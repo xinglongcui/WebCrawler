@@ -23,6 +23,19 @@
 - git commit
 ## More TODO
 
+# add local project to github repository
+## create a repository on github website
+## cd local project, and init local git configuration
+- cd Test
+- git init
+- git add .
+- git commit "first commit" 
+## set remote repository as local project URL
+- git remote add origin https://github.com/xinglongcui/Test.git
+- git remove -v
+## push local project to remote
+- git push origin master
+
 # insert pic to markdown files
 ## insert internet pics
 ![Alt internet](https://github.com/xinglongcui/explorer/blob/master/Folder.jpg "internet jpg") 

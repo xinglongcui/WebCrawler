@@ -47,3 +47,11 @@
 ![](2.jpg "local 4") 
 ![Alt internet](2.jpg "local 5") 
 ![](resource/Folder.jpg "local 6") 
+
+# spider project init
+- scrapy startproject NAME
+- cd NAME
+- scrapy genspider DOMAIN URL
+- cd NAME/spider
+- edit DOMAIN.py
+- scrapy crawl DOMAIN 

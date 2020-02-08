@@ -19,7 +19,10 @@ NEWSPIDER_MODULE = 'PageGet.spiders'
 #USER_AGENT = 'PageGet (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+# MOD START
+#ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
+# MOD END
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
